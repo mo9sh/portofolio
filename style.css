@@ -213,7 +213,7 @@
   display: none;
 }
 
-.mobile-header , .slide , .home-phone {
+.mobile-header , .slide , .home-phone , .aboutSection {
   display: none;
 }
  
@@ -362,6 +362,7 @@
   .aboutSection {
     width: 90%;
     margin: 70px auto;
+    display: block;
   }
   .aboutSection h3 {
     margin-bottom: 15px;
