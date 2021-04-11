@@ -1,0 +1,53 @@
+
+.projectsSection .aboutme h3 {
+    margin: 35px;
+    font-size: 25px;
+    color: #6b6464;
+    font-family: inherit;
+    font-weight: 100;
+    letter-spacing: 3px;
+    position: relative;
+  }
+
+  .projectsSection .aboutme h3::after {
+    content: "";
+    width: 104px;
+    height: 2px;
+    background: #D6A217;
+    position: absolute;
+    top: 30px;
+    left: -1px;
+
+  }
+
+.projectFlex {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.projects {
+    width: 227px;
+    height: 378px;
+}
+
+.projects img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info {
+    color: #4e4d4d;
+    font-family: inherit;
+    font-weight: 100;
+    letter-spacing: 5px;
+}
+.info p{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    line-height: 27px;
+     
+}
