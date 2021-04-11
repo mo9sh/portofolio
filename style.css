@@ -213,7 +213,8 @@
   display: none;
 }
 
-.mobile-header , .slide , .home-phone , .aboutSection , .cat , .paws , .projectsSection {
+.mobile-header , .slide , .home-phone , .aboutSection , .cat , .paws , .projectsSection
+, .contactSection {
   display: none;
 }
  
@@ -447,7 +448,68 @@
        max-width: 200px;
     }
 
-     
+     .contactSection {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: baseline;
+       margin-top: 55px;
+     }
+     .contactSection h3 {
+      margin-bottom: 15px;
+      background: #D6A217;
+      display: inline-block;
+      padding: 10px;
+      margin-left: -3px;
+      color: #d5dcdb;
+      font-weight: 100;
+      letter-spacing: 2px;
+      border-radius: 2px;
+      font-size: 15px;
+     }
+
+     .contact-info {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+     }
+     .contact-info ul {
+       list-style: none;
+     }
+     .contact-info ul li {
+      margin: 20px;
+     }
+     .contact-info ul li a {
+      text-decoration: none;
+      font-size: 15px;
+      font-family: inherit;
+      color: #6b6464;
+      font-weight: 100;
+      letter-spacing: 3px;
+     }
+
+     .contact-info .fas {
+      margin-right: 15px;
+     }
+   .contactSection .footer {
+    width: 100%;
+    height: 50px;
+    background: #3d5654;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+   }
+   .footer .copyRightfooter {
+       font-size: 15px;
+       color: #c1d4d3;
+   }
+   .footer .fab , .fas {
+    font-size: 20px;
+    color: #D6A217;
+    margin-right: 10px;
+   }
    }
 
  
