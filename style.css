@@ -4,7 +4,7 @@
  @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Lato&family=Lobster+Two&family=Pacifico&family=Playball&display=swap');
- 
+ @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bangers&family=Noto+Serif&family=Open+Sans&family=RocknRoll+One&family=Vidaloka&display=swap');
  * {
      margin: 0;
      padding: 0;
@@ -213,7 +213,7 @@
   display: none;
 }
 
-.mobile-header , .slide , .home-phone , .aboutSection {
+.mobile-header , .slide , .home-phone , .aboutSection , .cat , .paws {
   display: none;
 }
  
@@ -379,14 +379,49 @@
   }
   .aboutSection p {
     color: #595d5c;
-    text-align: inherit;
-    letter-spacing: 2px;
-    line-height: 20px;
-    font-size: 16px;
+    text-align: left;
+    letter-spacing: 1px;
+    line-height: 27px;
+    font-size: 15px;
     /* width: 110%; */
-    padding: 10px;
+   /*  padding: 10px; */
+   margin-bottom: 10px;
+   
+    
   }
+   .fa-smile-beam {
+     color: yellow;
+     font-size: 15px;
+   }
 
+   .cat {
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+   }
+
+   .cat h4 {
+    font-family: 'Architects Daughter', cursive;
+    color: #464747;
+    letter-spacing: 2px;
+    font-size: 15px;
+    transform: scale3d(1.5, 1.5, 1.5);
+   }
+   .cat img {
+    width: 170px;
+   }
+
+   .paws {
+    display: block;
+    position: absolute;
+    bottom: -51%;
+    left: 21%;
+    transform: rotateZ(45deg);
+   }
+
+   .paws .fa-paw {
+     font-size: 43px;
+   }
    }
 
  
