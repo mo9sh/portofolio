@@ -411,17 +411,7 @@
     width: 170px;
    }
 
-   .paws {
-    display: block;
-    position: absolute;
-    bottom: -51%;
-    left: 21%;
-    transform: rotateZ(45deg);
-   }
-
-   .paws .fa-paw {
-     font-size: 43px;
-   }
+    
    }
 
  
