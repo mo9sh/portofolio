@@ -288,9 +288,9 @@
   margin: 0;
   padding: 20px;
   text-align: center;
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
  }
 
 .slide ul {
@@ -310,7 +310,7 @@
     color: #c1d4d3;
     font-weight: 100;
     letter-spacing: 2px;
-    margin: 11px
+    margin: 6px
 }
 
 
@@ -603,9 +603,9 @@
   margin: 0;
   padding: 20px;
   text-align: center;
-  display: flex;
+/*   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
  }
 
 .slide ul {
@@ -625,7 +625,7 @@
     color: #c1d4d3;
     font-weight: 100;
     letter-spacing: 2px;
-    margin: 11px
+    margin: 6px
 }
 
 
